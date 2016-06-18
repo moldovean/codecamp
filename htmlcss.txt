@@ -42,3 +42,7 @@ thick-green-border {
   
    input type="radio" name="gender" value="male" checked> Male<br>
   input type="radio" name="gender" value="female"> Female<br>
+
+
+<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL">
+</form>
