@@ -48,5 +48,12 @@ input type="radio" name="gender" value="female"> Female<br>
 <input type="text" name="pName" placeholder="cat photo URL">
 </form>
 
+## lvl 36- 50
+padding
+
+An element's margin controls the amount of space between an element's border and surrounding elements.
+
+## lvl 51 - 55
+ranks of css in classes: the property written last in css overrides.
   <label><input type="checkbox" name="personality" value="Loving"> Loving </label>
 
