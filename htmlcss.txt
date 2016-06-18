@@ -38,11 +38,15 @@ thick-green-border {
   
   forms
   
-  input type="text" - self closing element
+<input type="text" required>
   
-   input type="radio" name="gender" value="male" checked> Male<br>
-  input type="radio" name="gender" value="female"> Female<br>
+input type="radio" name="gender" value="male" checked> Male<br>
+input type="radio" name="gender" value="female"> Female<br>
 
 
-<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL">
+<form action="submit.txt">
+<input type="text" name="pName" placeholder="cat photo URL">
 </form>
+
+  <label><input type="checkbox" name="personality" value="Loving"> Loving </label>
+
