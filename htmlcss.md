@@ -19,7 +19,9 @@
     border-radius: 50%; 
   }
   
-  ## lvl 26 - 30
+## lvl 26 - 30
+  
+  
   the a elements, also known as anchor
   dead links: "#"
   the alt tag in the img tag
