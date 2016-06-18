@@ -12,7 +12,8 @@
  h2 {   font-family: Lobster, Monospace;  }
  
  make round borders
- .thick-green-border {
+ 
+thick-green-border {
     border-color: green;
     border-width: 10px;
     border-style: solid;
@@ -27,7 +28,17 @@
   the alt tag in the img tag
   img as a link
   
-  ##lvl 31 - 35
+  
+
+##lvl 31 - 35
+  
   ul, li
+  
   ol
+  
+  forms
+  
   input type="text" - self closing element
+  
+   input type="radio" name="gender" value="male" checked> Male<br>
+  input type="radio" name="gender" value="female"> Female<br>
