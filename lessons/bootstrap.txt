@@ -14,4 +14,15 @@ text-center
 
 <button class="btn btn-block btn-info"> Info </button>
 
+## bootstrap:
+class attributies
+text-primary
+img-responsive 
 
+the i tag : icons
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<button class="btn btn-block btn-primary">Like <i class="fa fa-thumbs-up"></i> </button>
+
+<div class="row"> </div>
+
+<div class="col-xs-6"> </div>
