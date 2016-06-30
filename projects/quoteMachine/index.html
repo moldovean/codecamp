@@ -6,14 +6,19 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- Import jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
         $("#btnjson").on("click",function(){
-          $jQuery.getJSON("json/quotes.json",function(json){
-            $("#quotetext").html(JSON.stringify(json));
+          $.getJSON("json/quotes.json",function(json){
+            var myHTML="";
+            myHTML=JSON.stringify(json);
+            $("#quotetext").html(myHTML);
           });
         });
+        $("#demo").on("click",function(){
+          $("#quotetext").html("It does change, actually!");
+        })
 
       });
     </script>
@@ -34,6 +39,9 @@
 
         </div>
         <div class="col-xs-6">
+          <p>
+            Does this even work on python -m SimpleHTTPServer 8000
+          </p>
           <p>
             Our quote of the day from <span id="quote-author"><em>me</em></span>:
           </p>
@@ -56,6 +64,7 @@
 
           <button type="button" name="button" class="btn btn-info" id="quote-btn">Generate new</button>
           <button type="button" name="button" class="btn btn-default" id="btnjson">Get Json!</button>
+          <button type="button" name="button" class="btn btn-default" id="demo">testing</button>
         </div>
         <div class="col-xs-3">
 
