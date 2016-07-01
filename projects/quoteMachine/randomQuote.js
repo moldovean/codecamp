@@ -8,7 +8,7 @@ $(document).ready(function(){
 
   $("#head").css("padding-top", Math.floor($(window).height()*0.08));
   $("#main-content").css("padding-top", Math.floor($(window).height()*0.03));
-  $("#myTV").css("height",Math.floor($(window).height()*0.57));
+  $("#myTV").css("height",Math.floor($(window).height()*0.64));
 
 
 
